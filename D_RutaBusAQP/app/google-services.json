@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757663301319",
+    "firebase_url": "https://dbrutabusaqp.firebaseio.com",
+    "project_id": "dbrutabusaqp",
+    "storage_bucket": "dbrutabusaqp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757663301319:android:ab467a7c8a75fc90",
+        "android_client_info": {
+          "package_name": "com.example.usuario.d_rutabusaqp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757663301319-6fap6g98qp96om202l5cdiurlq0uakvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.usuario.d_rutabusaqp",
+            "certificate_hash": "4874aaf6fb210c3bd267f96b54abee1304a1a00a"
+          }
+        },
+        {
+          "client_id": "757663301319-s9c7eaaoe9a16nae0duslg0dtvvnn6cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGy4tgjaH2Thnp87NFWW41DDat4CIYM9Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757663301319-s9c7eaaoe9a16nae0duslg0dtvvnn6cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

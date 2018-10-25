@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtElegir"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:text="Eliga la manera en la que desee registrarse: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnSignInGoogle"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text = "Sign in with Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtElegir" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnSignInFacebook"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:text = "Sign in with Facebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignInGoogle" />
+
+</android.support.constraint.ConstraintLayout>
